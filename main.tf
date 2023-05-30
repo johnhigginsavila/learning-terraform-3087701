@@ -25,7 +25,6 @@ module "blog_vpc" {
 
   single_nat_gateway     = false
   one_nat_gateway_per_az = true
-  enable_nat_gateway     = true
 
   tags = {
     Terraform = "true"
